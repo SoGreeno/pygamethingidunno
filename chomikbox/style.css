@@ -1,0 +1,13 @@
+.chomik {
+	/* ukrywamy nasze pudełko
+	display: none; - ukrywanie
+	display: block; - pokazywanie */
+	display: none;
+}
+
+img {
+	height: 200px; /* ustawiamy żeby zawsze obrazek miał 200 pixeli */
+	position: absolute; /* chomik ma być tam gdzie mu każemy */
+	right: 0;  /* przesuńmy go na prawy róg */
+	bottom: 0; /* i teraz połózmy go na dole ekranu */
+}
