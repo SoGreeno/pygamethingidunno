@@ -1,6 +1,6 @@
 "use strict"; // wytłumaczę tą linijkę kiedy lepiej poznasz JS
 
-let chomikbox = {};
+let chomikbox = {}; // tworzymy pudełko o nazwie chomikbox
 
 chomikbox.czyMuzykaGra = false;
 // dodajemy do pudełka informację
