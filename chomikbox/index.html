@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Chomikbox</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/programistazpolski/pzplui@master/style.min.css"> <!-- pzplUI -->
+	<link rel="stylesheet" href="style.css"> <!-- nasz własny styl -->
+</head>
+
+<body>
+	<h1>Chomikbox</h1>
+	<button class="btn btn-normal" id="startuj" onclick="chomikbox.pokazChomika();">
+		<!-- 
+			id - oznacza jak ten przycisk się indentyfikuje
+			onclick - oznacza co ma się stać po kliknięciu przycisku
+			chomikbox.pokazChomika(); - nazwaPudelka.nazwaFunkcji();
+		 -->
+		Uruchom chomikboxa
+	</button>
+
+	<div class="chomik"> <!-- pudełko z uruchomionym chomikboxem -->
+		<button class="btn btn-normal" onclick="toggleDarkMode();">
+			Tryb ciemny
+		</button>
+		<img src="chomik.png" alt="Chomik" loading="lazy" decoding="async"> <!-- obrazek chomika 
+		loading i decoding - optymalizacje do szybkości
+		-->
+		<audio src="music.webm"></audio> <!-- muzyka -->
+		<button class="btn btn-normal" onclick="chomikbox.muzyka();">Muzyka</button>
+	</div>
+	<script src="script.js"></script> <!-- nasze własne skrypty -->
+	<script src="https://cdn.jsdelivr.net/gh/programistazpolski/pzplui@master/darkMode.js" defer></script> <!-- tryb ciemny -->
+	<script src="https://cdn.jsdelivr.net/gh/programistazpolski/hquery@master/hQuery.min.js"></script> <!-- żeby h(); działało -->
+</body>
+
+</html>
