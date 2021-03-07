@@ -1,5 +1,5 @@
 # pygamethingidunno
 
-Tutaj się uczę CSS, HTML, JS, itp
+Tutaj się uczę JS, Python
 
 ok nie wiem co tu napisać więc hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
